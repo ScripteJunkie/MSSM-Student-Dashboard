@@ -1,5 +1,3 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.rb linguist-language=HTML
-*.rb linguist-language=JS
-*.rb linguist-language=CSS
+jc_ansiterm_0.1/* linguist-vendored=true
