@@ -1,5 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-* linguist-language=HTML
-* linguist-language=JS
-* linguist-language=CSS
+*.rb linguist-language=HTML
+*.rb linguist-language=JS
+*.rb linguist-language=CSS
