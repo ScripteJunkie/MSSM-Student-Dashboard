@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Wire+One');
+
+html {
+background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+background-attachment:fixed;
+height:100%;
+overflow: hidden;
+margin: 0px;
+padding: 0px;
+        user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+}
+
+.hide {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 5vh;
+  width: 10vh;
+  transition: 0.3s;
+  border: none;
+  transition-delay: 0.3s;
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+  text-align: center;
+  z-index: 1;
+}
+
+.hide:hover + .container {
+  width: 40vw;
+  height: 15vh;
+  border-radius: 10px;
+  text-align: left;
+}
+
+#txt {
+  font-family: 'Wire One', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  right: 0;
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+  }
+
+   .side {
+    width: 20vw;
+    height: 98%;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    position: fixed;
+    border-radius: 5px;
+  }
+
+.container {
+  position: fixed;
+  z-index: 0;
+}
+
+.degrees {
+  margin-top: none;
+}
+
+#holder {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+#holder img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+  width: 95%;
+  height: auto;
+}
+
+.frame {
+  float: right;
+}
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    font-family: 'Wire One', sans-serif;
+    font-weight: 600;
+    font-size: 4vh;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+div.fancy {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    border-bottom: 1px solid #5687d4;
+}
+
+.vertical-menu a {
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    color: white;
+}
+
+#main-shit {
+  background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+  position: absolute;
+  right: 0;
+  width: 78.3vw;
+  height: 98%;
+  border-radius: 5px;
+  margin-right: 10px;
+  z-index: -1;
+}
